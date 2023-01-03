@@ -115,6 +115,7 @@ img {
 
 button{
   border: none;
+  cursor: pointer;
 }
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
