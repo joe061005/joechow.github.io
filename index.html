@@ -25,7 +25,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="uil uil-estate nav__icon"></i> Home
                         </a>
                     </li>
@@ -795,7 +795,7 @@
                     </div>
                 </div> 
 
-                <form action="https://formsubmit.co/b27afd659f9b800396b97ef0de37eac6" method="POST" class="contact__form grid">
+                <form action="https://formsubmit.co/b27afd659f9b800396b97ef0de37eac6" method="POST" class="contact__form grid" onsubmit="sendMsg.disabled = true; return true;">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
@@ -811,7 +811,7 @@
                         <textarea name="" id="" cols="0" rows="7" class="contact__input" name="message" required></textarea>
                     </div>
                     <div>
-                        <button type="submit" class="button button--flex">
+                        <button type="submit" name="sendMsg" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
                         </button>
