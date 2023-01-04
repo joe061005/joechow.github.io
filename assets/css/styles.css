@@ -661,9 +661,40 @@ button {
 
 }
 
+.portfolio_demo_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .Portfolio__Button__Container {
   display: flex;
-  gap: 30px;
+  align-items: center;
+  gap: 40px;
+  color: var(--first-color);
+  
+}
+
+.portfolio_icon_text{
+  font-size: 18px;
+}
+
+.portfolio_demo_icon{
+  font-size: 25px;
+  color: var(--first-color);
+}
+
+.portfolio_demo_icon:hover, .portfolio_demo_icon_with_text:hover{
+  color: var(--first-color-alt);
+}
+
+.portfolio_demo_icon_with_text{
+  font-size: 18px;
+  color: var(--first-color);
+}
+
+.demo_icon{
+  margin-right: 5px;
 }
 
 .swiper-button-prev::after,
@@ -869,7 +900,7 @@ button {
 
   .portfolio__content {
     padding: 0 0.5rem;
-    height: 520px;
+    height: 450px;
 
   }
 
@@ -877,13 +908,13 @@ button {
     margin-left: 10px;
   }
 
-  .portfolio__title,
+  /* .portfolio__title,
   .portfolio__description,
   .portfolio__technology {
     font-size: 10px;
-  }
+  } */
 
-  .Portfolio__Button__Container {
+  /* .Portfolio__Button__Container {
     gap: 5px;
     font-size: 8px;
     grid-template-columns: 1fr 1fr;
@@ -895,7 +926,7 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
-  }
+  } */
 
   .portfolio__img {
     width: 200px;
@@ -912,7 +943,7 @@ button {
 
 }
 
-@media screen and (min-width: 568px) and (max-width: 620px){
+/* @media screen and (min-width: 568px) and (max-width: 620px){
   .Portfolio__Button__Container {
     gap: 5px;
     font-size: 8px;
@@ -926,7 +957,7 @@ button {
     flex-direction: column;
     text-align: center;
   }
-}
+} */
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
@@ -956,17 +987,14 @@ button {
     justify-content: center;
   }
 
-  .Portfolio__Button__Container {
+  /* .Portfolio__Button__Container {
     gap: 10px;
-  }
+  } */
 
   .portfolio__content {
-    height: 580px;
+    height: 550px;
   }
 
-  .portfolio__img {
-    align-self: center;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1066,9 +1094,9 @@ button {
     margin: 0 var(--mb-1);
   }
 
-  .Portfolio__Button__Container {
+  /* .Portfolio__Button__Container {
     gap: 40px;
-  }
+  } */
 
   .portfolio__img{
     width: 320px;
