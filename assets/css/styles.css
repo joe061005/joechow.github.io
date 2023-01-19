@@ -661,6 +661,11 @@ button {
 
 }
 
+.portfolio__reminder{
+  font-size: var(--small-font-size);
+  color: red;
+}
+
 .portfolio_demo_container {
   display: flex;
   gap: 10px;
@@ -672,6 +677,7 @@ button {
   align-items: center;
   gap: 40px;
   color: var(--first-color);
+  margin-bottom: 10px;
   
 }
 
