@@ -874,7 +874,7 @@ button {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 656px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -906,7 +906,7 @@ button {
 
   .portfolio__content {
     padding: 0 0.5rem;
-    height: 450px;
+    height: 550px;
 
   }
 
@@ -920,14 +920,18 @@ button {
     font-size: 10px;
   } */
 
+  .portfolio_icon_text{
+    font-size: 13px;
+  }
+
   /* .Portfolio__Button__Container {
     gap: 5px;
     font-size: 8px;
     grid-template-columns: 1fr 1fr;
     display: grid;
-  }
+  } */
 
-  .portfolio__button {
+  /* .portfolio__button {
     padding: 0.2rem;
     display: flex;
     flex-direction: column;
