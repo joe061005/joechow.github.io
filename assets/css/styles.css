@@ -970,7 +970,7 @@ button {
 } */
 
 /* For medium devices */
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 656px) {
   .home__content {
     grid-template-columns: 0.2fr 1fr 1fr;
   }
