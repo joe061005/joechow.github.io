@@ -675,7 +675,7 @@ button {
 .Portfolio__Button__Container {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
   color: var(--first-color);
   margin-bottom: 10px;
   
@@ -683,6 +683,9 @@ button {
 
 .portfolio_icon_text{
   font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 .portfolio_demo_icon{
@@ -874,7 +877,7 @@ button {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 656px) {
+@media screen and (max-width: 525px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -970,7 +973,7 @@ button {
 } */
 
 /* For medium devices */
-@media screen and (min-width: 656px) {
+@media screen and (min-width: 525px) {
   .home__content {
     grid-template-columns: 0.2fr 1fr 1fr;
   }
